@@ -29,6 +29,21 @@ I used data from these posts on Reddit.
 * [UPDATED: PO-20 chords & keys](reddit.com/r/pocketoperators/comments/6lflrx/heres_a_visual_chord_guide_for_po20_arcade_useful/ ). 
 * [Here's a visual chord guide for PO-20 arcade. Useful if you're not big on theory!](reddit.comr/pocketoperators/comments/j7q7fx/updated_po20_chords_keys/ )
 
+## Troubleshooting
+
+If installing on macOS 12 ensure the following prerequesites are met.
+
+1. Install QT5 and add to your path
+
+`brew install qt5`
+`brew link qt5`
+
+At this point running `qmake` in terminal should produce some output.
+
+2. Install PyQt5
+
+`brew install PyQt5`
+
 ##TODO
 * Midi out integration
 
